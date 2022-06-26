@@ -1,0 +1,19 @@
+name = "Codebox"
+license = "MIT"
+licenselink = "https://github.com/tywhisky/hugo-theme-codebox/blob/master/LICENSE"
+description = "A clean, responsive hugo theme for personal blog. Forked from hexo theme cactus created by @probberechts."
+homepage = "https://github.com/tywhisky/hugo-theme-cactus"
+tags = ["blog", "responsive", "clean"]
+features = ["mathjax", "customizable", "color"]
+min_version = "0.55"
+
+# If the theme has a single author
+[author]
+    name = "Zeran Wu"
+    homepage = "https://github.com/tywhisky"
+
+# If porting an existing theme
+[original]
+    author = "Pieter Robberechts"
+    homepage = "https://github.com/probberechts"
+    repo = "https://github.com/probberechts/hexo-theme-cactus"
