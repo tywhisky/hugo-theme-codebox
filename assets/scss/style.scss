@@ -235,7 +235,7 @@ code {
 }
 
 .sombra::after {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAD0lEQVQImWNgYGD4z4AMAA4EAQAvGW0PAAAAAElFTkSuQmCC);
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAJklEQVR4nGOIZZD7DwMM////h/MZIBSEz/j//38GBgYGBoY4RnkAsOcf0ySwszMAAAAASUVORK5CYII=);
   background-position: right bottom;
   background-repeat: repeat;
   height: 100%;
@@ -248,7 +248,7 @@ code {
 }
 
 .border {
-  border: $border-weight solid black;
-  background-color: #f1f1f1;
+  border: $border-weight solid $color-text;
+  background-color: $color-background;
   padding: 2em;
 }
