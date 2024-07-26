@@ -9,6 +9,7 @@ h1,
   font-weight: 700;
   font-style: normal;
   font-size: 1.5em;
+  font-family: $font-family-tt;
 
   @include antialias();
 }
@@ -28,7 +29,7 @@ h3 {
   color: $color-accent-2;
   text-decoration: underline;
   font-weight: bold;
-  font-size: .9rem;
+  font-size: 1.2rem;
 }
 h4
 h5
